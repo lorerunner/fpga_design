@@ -1,5 +1,12 @@
+import csv
+import sys
+import time
+import logging
 from SyntheSys import Algorithm, Testbench, Synthesize
 from SyntheSys.Library.SW.Processing.Math import Square
+
+# logging configuration
+logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
 
 @Algorithm() # Mean that this method will be HighLevelModule algorithm to be synthesized.
 def MyAlgorithm(a,b,c):
