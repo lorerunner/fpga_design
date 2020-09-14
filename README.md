@@ -15,6 +15,9 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 
 For this project, I was interestested in generating FPGA design, the final mission is to design a FPGA product with the similar function as Xilinx [XCZU9EG-2FFVB1156C](https://starriver-electronics.com/product/details/xilinx-inc/xczu9eg-2ffvb1156c.html)
 
+### Step 1
+There is some issue delay the process and the team is working on it.
+
 
 ## File Descriptions <a name="files"></a>
 
